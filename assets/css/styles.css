@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+.instructions {
+  vertical-align: baseline;
+  background-color: violet;
+}
+.heading {
+  background-color: blue;
+}
+.totalscore {
+  background-color: lime;
+}
+.totalscore1 {
+  background-color: paleturquoise;
+}
+/* .scoreboard {
+  text-align: left;
+}
+.wins,
+.loses,
+.wins1,
+.loses1 {
+  text-align: center;
+} */
+.footer {
+  margin-top: 30px;
+}

@@ -15,32 +15,41 @@
 <body>
     <div class="container">
         <div class="row">
-            <h1 class="heading"> Crystal Collector </h1>
+            <div class="col-md-12">
+                <h1 class="heading"> Crystal Collector </h1>
+            </div>
         </div>
         <div class="row">
-            <div class="instructions">
-                <p id="para1">You will be given a random number at the start of the game.</p>
-                <p class="para2">There are four crystals below. By clicking on a crystal you will add a specific amount
-                    of
-                    points to your total score.</p>
-                <p class="para3">You win the game by matching your total score to random number, you lose the game if
-                    you
-                    total
-                    score goes above the random number.</p>
-                <p class="para4">The value of each crystal is hidden from you until you click on it.</p>
-                <p class="para5:">Each time when the game starts, the game will change the value of each Crystal.</p>
+            <div class="col-md-12">
+                <div class="instructions">
+                    <p id="para1">You will be given a random number at the start of the game.</p>
+                    <p id="para2">There are four crystals below. By clicking on a crystal you will add a specific
+                        amount
+                        of
+                        points to your total score.</p>
+                    <p id="para3">You win the game by matching your total score to random number, you lose the game
+                        if
+                        you
+                        total
+                        score goes above the random number.</p>
+                    <p id="para4">The value of each crystal is hidden from you until you click on it.</p>
+                    <p id="para5:">Each time when the game starts, the game will change the value of each Crystal.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">55</div>
             <div class="col-md-6">
-                <div class="row">
-                    <a>Wins: </a>
-                    <a class="wins#"></a>
-                </div>
-                <div class="row">
-                    <a>Loses: </a>
-                    <a class="loses#"></a>
+                <div class="scoreboard">
+                    <div class="row">
+                        <a id="wins">Wins: </a>
+                        <a class="wins1">0</a>
+                    </div>
+                    <div class="row">
+                        <a id="loses">Loses: </a>
+                        <a class="loses1">0</a>
+                    </div>
                 </div>
             </div>
 
@@ -50,6 +59,24 @@
             <div class="col-sm-3">2</div>
             <div class="col-sm-3">3</div>
             <div class="col-sm-3">4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="totalscore">
+                    Your Total Score:
+                </p>
+                <a class="totalscore1">0</a>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-12">
+                <a class="footer" rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img
+                        alt="Creative Commons License" style="border-width:0"
+                        src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a
+                <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
+                    Unported License</a>.
+            </div>
         </div>
     </div>
 
@@ -64,7 +91,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
 
 </body>
 
