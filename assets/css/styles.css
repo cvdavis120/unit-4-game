@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color: lightgrey;
 }
 .instructions {
   vertical-align: baseline;
@@ -7,7 +8,7 @@ body {
 }
 .heading {
   background-color: blue;
-  font-size: larger;
+  font-size: xx-large;
   color: white;
 }
 .totalscore {
@@ -15,24 +16,54 @@ body {
   font-size: larger;
 }
 .totalscore1 {
-  background-color: paleturquoise;
-  font-size: larger;
+  font-size: xx-large;
 }
 .scoreboard {
-  text-align: left;
+  text-align: center;
   font-size: larger;
 }
 .cpuscore {
-  font-size: larger;
+  font-size: xx-large;
 }
 .wins,
 .loses,
 .wins1,
 .loses1 {
-  text-align: center;
   font-size: larger;
 }
 
 .footer {
   margin-top: 30px;
+}
+
+.button {
+  opacity: 0.6;
+  border: 1px;
+}
+.button:hover {
+  opacity: 1;
+}
+#king {
+  background-color: gold;
+  border-width: 14px;
+  border-color: gold;
+  border-style: solid;
+}
+#knight {
+  background-color: blue;
+  border-width: 14px;
+  border-color: blue;
+  border-style: solid;
+}
+#orc {
+  border-width: 14px;
+  border-color: green;
+  border-style: solid;
+  background-color: green;
+}
+#uni {
+  border-width: 14px;
+  border-color: purple;
+  border-style: solid;
+  background-color: purple;
 }

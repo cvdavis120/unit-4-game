@@ -12,32 +12,37 @@ $("document").ready(function() {
   //START THE GAME ON PAGE LOAD
   gameStart();
   function gameStart() {
+    $(".totalscore1").text("0");
     getTop();
     randScore();
   }
   function gameReset() {
-    var cpuScore = 0;
-    var playerScore = 0;
-    var kingScore = 0;
-    var knightScore = 0;
-    var orcScore = 0;
-    var uniScore = 0;
-    var thePoints = [];
+    cpuScore = 0;
+    playerScore = 0;
+    kingScore = 0;
+    knightScore = 0;
+    orcScore = 0;
+    uniScore = 0;
+    thePoints = [];
     gameStart();
   }
-
-$(".king").on('click', function(){
+  //BUTTON STUFF
+  $("#king").on("click", function() {
     playerChoice(kingScore);
-    this.animate({
-        opacity: '0.5',
-        height: '5px',
-        width: '5px'});
-}
-
-
-
-
-
+    console.log(this);
+  });
+  $("#knight").on("click", function() {
+    playerChoice(knightScore);
+    console.log(this);
+  });
+  $("#uni").on("click", function() {
+    playerChoice(uniScore);
+    console.log(this);
+  });
+  $("#orc").on("click", function() {
+    playerChoice(orcScore);
+    console.log(this);
+  });
 
   //GENERATE CPU SCORE
   function getTop() {
@@ -60,7 +65,7 @@ $(".king").on('click', function(){
 
   function playerChoice(i) {
     playerScore += i;
-    $("totalscore1").text(playerScore);
+    $(".totalscore1").text(playerScore);
     winCheck();
   }
   function winCheck() {
