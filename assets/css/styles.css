@@ -7,22 +7,32 @@ body {
 }
 .heading {
   background-color: blue;
+  font-size: larger;
+  color: white;
 }
 .totalscore {
   background-color: lime;
+  font-size: larger;
 }
 .totalscore1 {
   background-color: paleturquoise;
+  font-size: larger;
 }
-/* .scoreboard {
+.scoreboard {
   text-align: left;
+  font-size: larger;
+}
+.cpuscore {
+  font-size: larger;
 }
 .wins,
 .loses,
 .wins1,
 .loses1 {
   text-align: center;
-} */
+  font-size: larger;
+}
+
 .footer {
   margin-top: 30px;
 }
